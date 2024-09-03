@@ -1,9 +1,7 @@
 <!-- src/views/Home.vue -->
 <template>
   <div class="mt-16">
-    <h1>Home</h1>
-    <!-- 以下代码将在 Home 组件中被渲染 -->
-    <!-- 请在此添加您的 UI 代码 -->
+    <h1>Payment Page</h1>
     <!-- 例如: <div>Welcome to Your Vue.js App!</div> -->
   </div>
 </template>
