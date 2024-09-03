@@ -7,10 +7,11 @@ import Payment from '../views/Payment.vue'
 
 export const routes: RouteRecordRaw[] = [
   {
-    path: "/redirect",
-    component: Home,
-    meta: { title: "/" , hidden: true },
+    path: "/",
+    name: '/',
     redirect: "/payment",
+    component: Home,
+    meta: { title: "/" },
     children: [],
   },
   {
